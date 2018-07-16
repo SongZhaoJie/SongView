@@ -14,6 +14,7 @@
 		049E542320FC3286000A142C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049E542120FC3286000A142C /* LaunchScreen.storyboard */; };
 		049E542620FC3286000A142C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E542520FC3286000A142C /* main.m */; };
 		049E543020FC3286000A142C /* SongUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E542F20FC3286000A142C /* SongUITests.m */; };
+		049E543C20FC4BB3000A142C /* SongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E543B20FC4BB3000A142C /* SongViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		049E542B20FC3286000A142C /* SongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		049E542F20FC3286000A142C /* SongUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SongUITests.m; sourceTree = "<group>"; };
 		049E543120FC3286000A142C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049E543A20FC4BB3000A142C /* SongViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SongViewController.h; sourceTree = "<group>"; };
+		049E543B20FC4BB3000A142C /* SongViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SongViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				049E541720FC3286000A142C /* AppDelegate.m */,
 				049E541920FC3286000A142C /* ViewController.h */,
 				049E541A20FC3286000A142C /* ViewController.m */,
+				049E543A20FC4BB3000A142C /* SongViewController.h */,
+				049E543B20FC4BB3000A142C /* SongViewController.m */,
 				049E541C20FC3286000A142C /* Main.storyboard */,
 				049E541F20FC3286000A142C /* Assets.xcassets */,
 				049E542120FC3286000A142C /* LaunchScreen.storyboard */,
@@ -206,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				049E541B20FC3286000A142C /* ViewController.m in Sources */,
+				049E543C20FC4BB3000A142C /* SongViewController.m in Sources */,
 				049E542620FC3286000A142C /* main.m in Sources */,
 				049E541820FC3286000A142C /* AppDelegate.m in Sources */,
 			);
